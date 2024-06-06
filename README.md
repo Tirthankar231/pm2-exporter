@@ -8,23 +8,17 @@ To set up the monitoring stack, follow these steps:
 
 1. **Install Docker:** If you haven't already installed Docker on your system, follow the instructions for your operating system from [Docker's official documentation](https://docs.docker.com/get-docker/).
 
-2. **Clone Repository:**
-
-    ```bash
-    git clone <repository_url>
-    ```
-
-3. **Move YAML files:**
+2. **Move YAML files:**
 
     Place all the YAML files provided in this repository into the same directory.
 
-4. **Navigate to Directory:**
+3. **Navigate to Directory:**
 
     ```bash
     cd <directory_where_yml_files_are_placed>
     ```
 
-5. **Start Containers:**
+4. **Start Containers:**
 
     Run the following command to start all containers (Loki, Promtail, and Prometheus) using Docker Compose:
 
@@ -34,7 +28,7 @@ To set up the monitoring stack, follow these steps:
 
     This command will start the containers in detached mode.
 
-6. **Start Grafana Server:**
+5. **Start Grafana Server:**
 
     Start the Grafana server using:
 
@@ -44,7 +38,7 @@ To set up the monitoring stack, follow these steps:
 
     Ensure Grafana is installed and configured properly on your system before starting.
 
-7. **Access Grafana:**
+6. **Access Grafana:**
 
     - Open your web browser and go to `http://localhost:3000` (default Grafana port).
     - Log in to Grafana (default credentials may be admin/admin, please change it on first login).
